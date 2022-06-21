@@ -1,0 +1,28 @@
+{
+  "name": "wine-and-beer",
+  "version": "1.0.0",
+  "main": "test.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "express-session": "^1.17.1",
+    "graphql": "^16.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.3.6",
+    "sequelize": "^5.21.12"
+  },
+  "devDependencies": {}
+}
